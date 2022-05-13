@@ -1,0 +1,21 @@
+{
+  "name": "sportapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "he": "^1.2.0",
+    "request": "^2.88.2",
+    "soccer-streams-scraper": "^1.0.1",
+    "unescape": "^1.0.1",
+    "uuid": "^8.3.2"
+  }
+}
