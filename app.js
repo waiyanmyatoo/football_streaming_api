@@ -7,9 +7,7 @@ const schedule_router = require(__dirname + "/routers/schedule_router.js");
 
 app.use(cors());
 
-app.get('/', function (req, res) {
-    res.send("hello world");
-});
+app.get('/', schedule_router);
 
 app.use("/api", schedule_router);
 
