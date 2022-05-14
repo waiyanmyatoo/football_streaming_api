@@ -14,7 +14,7 @@ const get_schedules = function (url) {
         'method': 'GET',
         'url': baseURL,
         'headers': {
-            'User-Agent': ' Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0'
         }
     };
     rs(options.concat(path.allFootball), (error, response, html) => {
