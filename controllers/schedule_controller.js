@@ -4,7 +4,7 @@ const Team = require("../models/team");
 const he = require('he');
 const decode = require('unescape');
 
-const baseURL = "http://mygoaltv.org/";
+const baseURL = "https://totalsportekplus.com/";
 
 const path = {
     all: "football-19",
@@ -36,9 +36,11 @@ const get_schedules = function (req, res) {
                         const league = $(ele).find("div.match_item .team.team_1 div.team_name").attr("data-text");
 
                         let hotMatch = false;
+                        
                         if (isHotMatch.hasClass("hot-match")) {
                             hotMatch = true;
                         }
+
                         // else {
                         //     hotMatch = false;
                         // }
